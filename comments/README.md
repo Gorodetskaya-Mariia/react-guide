@@ -1,9 +1,8 @@
-
-
-## Available Scripts
+## section of comments
 
 In the project directory, you can run:
 
+### `npm install`
 ### `npm start`
 
 ##Technology stack and techniques used in project:
