@@ -1,11 +1,9 @@
 import React, { Component } from "react";
-import { Transition } from "react-transition-group";
 import "./App.css";
 import Modal from "./components/Modal/Modal";
 import Backdrop from "./components/Backdrop/Backdrop";
 import List from "./components/List/List";
 
-const duration = 300;
 class App extends Component {
 	state = { modalIsOpen: false};
 
@@ -21,9 +19,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>React Animations</h1>
-				{this.state.modalIsOpen
-				? <Modal show={this.state.modalIsOpen} closed={this.closeModal}/>
-				: null}
+				<Modal show={this.state.modalIsOpen} closed={this.closeModal}/>
 				{this.state.modalIsOpen
 				? <Backdrop show={this.state.modalIsOpen}/>
 				: null}
