@@ -19,12 +19,7 @@ const IngredientForm = React.memo(props => {
     event.preventDefault();
     props.addIngredientHandler({title: enteredTitle, amount: enteredAmount});
   };
-  // const inputHandler = (e) => {
-  //   const {value} = e.target;
-  //   setInputState
-  //   console.log(value)
-  // }
-
+  
   return (
     <section className="ingredient-form">
       <Card>
