@@ -20,3 +20,7 @@
 - answer "n" about "File build/index.html already exists. Overwrite?"
 - in a file ".firebaserc" you can change a project name: projects-> default
 - run: firebase deploy
+## update deployed fileswith Firebase
+- install Firebase tool
+- run: firebase login
+- run: firebase deploy
